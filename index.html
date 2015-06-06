@@ -10,19 +10,31 @@ My first adventure game
   <button id="b1">button 1</button>
   <button id="b2">button 2</button>
 </div>
-<p style="display:none;" id="p1">I'm hidden until clicked! Choice 2.</p>
-<p style="display:none;" id="p2">I don't know what to type.</p>
+<div style="display:none;" id="d2">
+  <p id="p1">I'm hidden until clicked! Choice 2.</p>
+  <button id="b3">button 1</button>
+  <button id="b4">button 2</button>
+</div>
+<div style="display:none;" id="d3">
+  <p style="display:none;" id="p2">I don't know what to type.</p>
+  <button id="b5">button 1</button>
+  <button id="b6">button 2</button>
+</div>
 <footer>
 </footer>
 <script>
   b1.addEventListener("click", function(){
-    p1.style.display="block";
+    d2.style.display="block";
     jiyah.style.display="none";
   });
   b2.addEventListener("click", function(){
-    p2.style.display="block";
+    d3.style.display="block";
     jiyah.style.display="none";
+  }
+  b3.addEventListener("click", function(){
   });
+  b4.addEventListener("click", function(){
+  }
 </script>
 </body>
 </html>
