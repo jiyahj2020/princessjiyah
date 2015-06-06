@@ -7,13 +7,20 @@ My first adventure game
 </h1>
 <p id="c1">Choice 1</p>
 <button id="b1">button 1</button>
+<button id="b2">button 2</button>
 <p style="display:none;" id="p1">I'm hidden until clicked! Choice 2.</p>
+<p style="display:none;" id="p2">I don't know what to type.</p>
 <footer>
 </footer>
 <script>
   b1.addEventListener("click", function(){
     p1.style.display="block";
     b1.style.display="none";
+    c1.style.display="none";
+  });
+  b2.addEventListener("click", function(){
+    p2.style.display="block";
+    b2.style.display="none";
     c1.style.display="none";
   });
 </script>
