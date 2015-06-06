@@ -5,15 +5,16 @@
 <h1>
 My first adventure game
 </h1>
-<p>Choice 1</p>
+<p id="c1">Choice 1</p>
 <button id="b1">button 1</button>
-<div style="display:none;" id="d1">I'm hidden until clicked!</div>
+<p style="display:none;" id="p1">I'm hidden until clicked! Choice 2.</p>
 <footer>
 </footer>
 <script>
   b1.addEventListener("click", function(){
-    d1.style.display="block";
+    p1.style.display="block";
     b1.style.display="none";
+    c1.style.display="none";
   });
 </script>
 </body>
